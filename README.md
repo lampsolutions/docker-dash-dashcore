@@ -5,8 +5,8 @@ Base image used is phusion/baseimage based on Ubuntu 18.04.
 
 ## Exposed and used services
 
-* http://container:3000/insight/
-* http://container:3000/insight-api/
+* http://container:3001/insight/
+* http://container:3001/insight-api/
 
 ## License
 Code released under [the MIT license](https://github.com/lampsolutions/docker-dash-dashcore/blob/master/LICENSE).
