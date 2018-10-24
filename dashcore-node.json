@@ -1,0 +1,18 @@
+{
+    "network": "livenet",
+    "port": 3001,
+    "services": [
+    "@dashevo/insight-api",
+    "@dashevo/insight-ui",
+    "dashd",
+    "web"
+    ],
+    "servicesConfig": {
+    "dashd": {
+        "spawn": {
+            "datadir": "./data",
+                "exec": "/opt/dashd/bin/dashd"
+            }
+        }
+    }
+}
